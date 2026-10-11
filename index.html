@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090f">
+  <meta name="description" content="Explore original Odia songs, Hindi bhajans and animated music videos from lipsalinCreations.">
+  <title>lipsalinCreations — Music beyond the ordinary</title>
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="lipsalinCreations home">
+      <span class="brand-icon">LC<span>✦</span></span>
+      <span class="brand-name">lipsalin<span>Creations</span><small>INDEPENDENT MUSIC & STORIES</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Open navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#videos">Videos</a><a href="#odia">Odia Songs</a><a href="#bhajans">Hindi Bhajans</a><a href="#animation">Animation</a>
+    </nav>
+    <a class="button button-small" data-channel-link href="https://www.youtube.com/@lipsalincreations" target="_blank" rel="noopener">Subscribe ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-backdrop"></div><div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR NEXT FAVOURITE SOUND STARTS HERE</div>
+        <h1>Music that moves you.<br><span>Stories that stay.</span></h1>
+        <p>Discover original Odia songs, soulful Hindi bhajans and animated stories made with imagination by lipsalinCreations.</p>
+        <div class="hero-buttons"><a class="button" href="#videos">Explore videos <span>↓</span></a><a class="button button-ghost" data-channel-link href="https://www.youtube.com/@lipsalincreations" target="_blank" rel="noopener">Visit YouTube ↗</a></div>
+        <div class="hero-stats"><div><strong>ORIGINAL</strong><small>Lyrics & music projects</small></div><i></i><div><strong>DEVOTIONAL</strong><small>Bhajans & sacred stories</small></div><i></i><div><strong>CREATIVE</strong><small>Animated visuals</small></div></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><div class="art-disc"><span>LC</span><b>✦</b></div><div class="art-caption">SOUND · SOUL · STORY</div><div class="art-orb orb-one"></div><div class="art-orb orb-two"></div></div>
+      <div class="hero-bottom"><span>SCROLL TO DISCOVER</span><span>EST. WITH PASSION&nbsp; / &nbsp;ODISHA, INDIA</span></div>
+    </section>
+
+    <section class="featured section-wrap" id="featured">
+      <div class="section-head"><div><div class="eyebrow">HANDPICKED FOR YOU</div><h2>Featured <span>videos</span></h2></div><p>Start with a favourite, then explore the full collection.</p></div>
+      <div id="featuredGrid" class="featured-grid"><div class="loading-card">Loading your latest videos…</div></div>
+    </section>
+
+    <section class="all-videos section-wrap" id="videos">
+      <div class="section-head"><div><div class="eyebrow">THE FULL COLLECTION</div><h2>Find your <span>vibe.</span></h2></div><p>Search by title or filter by category.</p></div>
+      <div class="video-tools">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search videos…" aria-label="Search videos"></label>
+        <div class="filter-list" role="group" aria-label="Filter videos">
+          <button class="filter active" data-filter="all">All videos</button><button class="filter" data-filter="odia">Odia songs</button><button class="filter" data-filter="bhajans">Hindi bhajans</button><button class="filter" data-filter="animation">Animated</button>
+        </div>
+      </div>
+      <div id="videoGrid" class="video-grid"><div class="loading-card">Finding the latest uploads…</div></div>
+      <p id="emptyState" class="empty-state" hidden>No matching videos found. Try a different search.</p>
+      <div class="more-row"><a class="button button-ghost dark-ghost" data-channel-link href="https://www.youtube.com/@lipsalincreations" target="_blank" rel="noopener">See everything on YouTube ↗</a><span id="feedStatus">Latest videos update when the site feed is refreshed.</span></div>
+    </section>
+
+    <section class="category-band" aria-label="Browse categories">
+      <a class="category-tile tile-odia" href="#odia"><span class="tile-number">01 / ORIGINAL MUSIC</span><span class="tile-symbol">♫</span><h3>Odia Songs</h3><p>Own lyrics. Local roots. Real feelings.</p><span class="tile-link">Explore category ↗</span></a>
+      <a class="category-tile tile-bhajan" href="#bhajans"><span class="tile-number">02 / DEVOTION</span><span class="tile-symbol">✺</span><h3>Hindi Bhajans</h3><p>Sacred melodies for the soul.</p><span class="tile-link">Explore category ↗</span></a>
+      <a class="category-tile tile-animation" href="#animation"><span class="tile-number">03 / VISUAL STORIES</span><span class="tile-symbol">▧</span><h3>Animated Videos</h3><p>Imagination brought to life.</p><span class="tile-link">Explore category ↗</span></a>
+    </section>
+
+    <section class="category-section section-wrap" id="odia"><div class="category-title"><div><div class="eyebrow">MADE CLOSE TO HOME</div><h2>Odia <span>songs</span></h2><p>Original lyrics, album songs and Odia music videos.</p></div><span class="category-big-symbol">♫</span></div><div class="category-grid" data-category-grid="odia"></div></section>
+    <section class="category-section section-wrap section-tint" id="bhajans"><div class="category-title"><div><div class="eyebrow">MUSIC FOR THE SOUL</div><h2>Hindi <span>bhajans</span></h2><p>Radha-Krishna, Mahadev and devotional music.</p></div><span class="category-big-symbol">✺</span></div><div class="category-grid" data-category-grid="bhajans"></div></section>
+    <section class="category-section section-wrap" id="animation"><div class="category-title"><div><div class="eyebrow">A WORLD OF IMAGINATION</div><h2>Animated <span>stories</span></h2><p>Animated songs, cinematic scenes and original storytelling.</p></div><span class="category-big-symbol">▧</span></div><div class="category-grid" data-category-grid="animation"></div></section>
+
+    <section class="subscribe-panel"><div class="subscribe-shape">LC<span>✦</span></div><div class="eyebrow">JOIN THE COMMUNITY</div><h2>Good music is better <span>shared.</span></h2><p>Subscribe for new songs, bhajans and creative video releases.</p><a class="button" data-channel-link href="https://www.youtube.com/@lipsalincreations" target="_blank" rel="noopener">Subscribe on YouTube ↗</a></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">LC<span>✦</span></span><span class="brand-name">lipsalin<span>Creations</span><small>INDEPENDENT MUSIC & STORIES</small></span></a><p>Created with passion. Shared with everyone.</p><div class="footer-links"><a href="#videos">Videos</a><a data-channel-link href="https://www.youtube.com/@lipsalincreations" target="_blank" rel="noopener">YouTube ↗</a></div><small class="copyright">© <span id="year"></span> lipsalinCreations</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
